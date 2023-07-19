@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Proyecto autos" />
+    <meta name="keywords" content="html,css,autos" />
+    <meta name="author" content="Devicenzi Leonardo" />
+    <link rel="icon" href="img/logo.jpeg" type="image/png" />
+
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Principal</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar   navbar-expand-lg fixed-top  mb-5 ">
+        <div class="container">
+            <a class="navbar-brand img" href="index.html"><figure><img class="img-fluid" src="img/logozarpa.jpg" alt="logo de auto" width="120" height="auto"></a></figure>
+          
+          
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarAutos"
+            aria-controls="navbarAutos"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarAutos">
+
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item hover">
+              <a class="nav-link active text-danger" href="index.html">inicio</a>
+              <li class="nav-item hover">
+                <a class="nav-link text-danger"  href="/pages/paginalogin.html">Login</a
+                >
+              </li>
+              <li class="nav-item hover">
+                <a class="nav-link text-danger" href="/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item hover">
+                <a class="nav-link text-danger" href="/pages/nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <main>
+      <div id="Slider" class="carousel carousel-dark slide carousel-fade mb-5 carrusel-css" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#Slider" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+          <button type="button" data-bs-target="#Slider" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+          <button type="button" data-bs-target="#Slider" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        </div>
+        <div class="carousel-inner">
+              <div class="carousel-item active slider-responsive" data-bs-interval="10000">
+            <img src="/img/jesse-donoghoe-jYrGDcUkkgM-unsplash.jpg" class="d-block w-100 imagen" alt="camaro inicio pagina">
+            <div class="carousel-caption d-sm-block">
+              <div class="mb-5">
+                <h4 class="fs-md-1 fs-1 fst-italic colores-slider">Rapido</h4>
+                <p class="fs-md-1 fs-1 fst-italic colores-slider">Estable</p>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#Modalregistro" class="btn bg-danger btn-slider fs-md-1 fs-1 w-auto h-auto fw-bold mb-4">
+                  Registrate
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item slider-responsive" data-bs-interval="5500">
+            <img src="./img/ali-moharami-65BBIkJtzd0-unsplash.jpg" class="d-block w-100 imagen" alt="CHEVROTEL CAMARO">
+            <div class="carousel-caption d-md-block">
+              <div class="mb-5">
+                <h4 class="fs-md-1 fs-1 fst-italic colores-slider">Fisica</h4>
+                <p class="fs-md-1 fs-1 fst-italic colores-slider">
+                  Fluidez <br>
+                 POTENCIA
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item slider-responsive">
+            <img src="./img/meritt-thomas-SWt1dHle1eA-unsplash.jpg" class="d-block w-100 imagen" alt="camaro final de inicio">
+            <div class="carousel-caption d-md-block">
+              <div class="mb-5">
+                <h4 class="fs-md-1 fs-1 fst-italic colores-slider">Supera tus limites</h4>
+                <p class="fs-md-1 fs-1 fst-italic colores-slider">Adrenalina pura</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Slider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Slider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!-- Fin slider -->
+
+      <section class="container-fluid my-5">
+        <div class="row g-5 justify-content-center">
+          <article class="col-sm-12 col-md-8">
+            <div class="card  mt-3 mb-5 rounded shadow-lg">
+              <img src="/img/yuvraj-singh-B5TxJDbtUaI-unsplash.jpg" class="card-img-top" alt="Camaro Rs diablo">
+              <div class="card-body p-5">
+                <div class="d-flex">
+                  <ul class="fechaPost">
+                    <li>
+                      <i class="fa fa-calendar fa-1x me-2" aria-hidden="true"></i>27 julio, 2021
+                    </li>
+                  </ul>
+                  <ul class="fechaPost">
+                    <li>
+                      <i class="fa fa-dot-circle fa-1x mx-1" aria-hidden="true"></i>Fluidez en ruta
+                    </li>
+                  </ul>
+                </div>
+                <h3 class="card-title fs-1 my-2">
+                  Camaro RS: Cuando el Poder se Desata y el Diablo se Despierta
+                </h3>
+                <p class="fs-4">
+                  El Chevrolet Camaro RS es un ícono automovilístico que ha cautivado a entusiastas de los automóviles de alto rendimiento en todo el mundo. Con su combinación de diseño musculoso, potencia impresionante y rendimiento sobresaliente, el Camaro RS es una auténtica máquina del diablo en el asfalto. En este blog, exploraremos la emocionante historia detrás del Camaro RS, sus características distintivas y cómo encarna la esencia del desempeño de alto octanaje.
+                <p class="fs-4">
+                  El Camaro de Chevrolet ha sido parte de la cultura automotriz desde su debut en 1966. Con su aspecto agresivo y su rendimiento imponente, rápidamente se ganó el corazón de los amantes de los muscle cars. El Camaro RS, en particular, se destaca por ser una versión más deportiva y equipada, ofreciendo aún más emoción al volante.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Última actualización hace 3 minutos</small>
+                </p>
+                <div class="border-top">
+                  <a href="/pages/paginablog.html" class="btn site-btn-link">VER MAS <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="card  mt-3 mb-5 rounded shadow-lg">
+              <img src="/img/kevin-solbrig-3hEHKp6nx00-unsplash.jpg" class="card-img-top" alt="Subaru azul">
+              <div class="card-body">
+                <div class="card-body">
+                  <div class="d-flex">
+                    <ul class="fechaPost">
+                      <li>
+                        <i class="fa fa-calendar fa-1x me-2" aria-hidden="true"></i>25 julio, 2021
+                      </li>
+                    </ul>
+                    <ul class="fechaPost">
+                      <li>
+                        <i class="fa fa-dot-circle fa-1x mx-2" aria-hidden="true"></i>ULTIMOS MODELOS
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="card-title fs-1 my-2">
+                    Subaru: La Pasión por la Aventura y la Confianza en la Conducción
+                  </h3>
+                  <p class="fs-4">
+                    Subaru, una marca japonesa de automóviles, ha logrado destacar en el competitivo mundo automotriz gracias a su enfoque en la confianza en la conducción, el rendimiento excepcional y la durabilidad. Con una rica historia en la fabricación de vehículos, Subaru ha sabido cultivar una comunidad apasionada de conductores y entusiastas. 
+                  </p>
+                  <p class="fs-4">
+                    Tecnología Symmetrical AWD:
+                    Una de las características más distintivas de Subaru es su sistema Symmetrical AWD. A diferencia de otros sistemas AWD, la distribución simétrica del poder en todas las ruedas proporciona una mejor tracción, estabilidad y equilibrio, lo que resulta en un manejo más seguro y eficiente, especialmente en carreteras resbaladizas o terrenos difíciles. Esta tecnología ha sido clave para posicionar a Subaru como una opción popular entre los conductores que buscan aventuras tanto en la ciudad como fuera de ella.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Última actualización hace 10 minutos</small>
+                  </p>
+                  <div class="border-top">
+                    <a href="/pages/error404.html" class="btn site-btn-link">VER MAS <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-5 mt-3 rounded shadow-lg">
+              <img src="/img/spencer-davis-DFnCCRExDdc-unsplash.jpg" width="350%" class="card-img-top my-4" alt="Koenigsegg">
+              <div class="card-body">
+                <div class="card-body">
+                  <div class="d-flex">
+                    <ul class="fechaPost">
+                      <li>
+                        <i class="fa fa-calendar fa-1x me-2" aria-hidden="true"></i>21 de julio 2023
+                      </li>
+                    </ul>
+                    <ul class="fechaPost">
+                      <li><i class="fa fa-dot-circle fa-1x mx-2" aria-hidden="true"></i>Velocidad</li>
+                    </ul>
+                  </div>
+                  <h3 class="card-title fs-1 my-2">
+                    Koenigsegg: Donde la Pasión por la Velocidad se Fusiona 
+                  </h3>
+                  <p class="fs-4">
+                    En el emocionante mundo de los superdeportivos, hay un nombre que brilla con intensidad: Koenigsegg. Esta marca sueca ha conquistado el corazón de los amantes de la velocidad con sus impresionantes creaciones, que combinan un diseño elegante con una ingeniería de vanguardia. 
+                  </p>
+                  <p class="fs-4">
+                    Fundada en 1994 por Christian von Koenigsegg, un joven apasionado por la automoción, Koenigsegg nació con el objetivo audaz de crear el superdeportivo más rápido del mundo. La marca sueca se embarcó en un viaje desafiante para superar a los gigantes de la industria, y en poco tiempo, se convirtió en una fuerza a tener en cuenta gracias a su innovación y determinación.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Última actualización hace 15 minutos</small>
+                  </p>
+                  <div class="border-top">
+                    <a href="/pages/error404.html" class="btn site-btn-link">VER MAS <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-5 mt-3 rounded shadow-lg">
+              <img src="/img/oguz-yagiz-kara-I-Q9kKf2MvU-unsplash.jpg" class="card-img-top" alt="Mercedes-Benz">
+              <div class="card-body">
+                <div class="card-body">
+                  <div class="d-flex">
+                    <ul class="fechaPost">
+                      <li>
+                        <i class="fa fa-calendar fa-1x me-2" aria-hidden="true"></i>10 de Julio 2023
+                      </li>
+                    </ul>
+                    <ul class="fechaPost">
+                      <li>
+                        <i class="fa fa-dot-circle fa-1x mx-2" aria-hidden="true"></i>Mercedes-Benz
+                      </li>
+                    </ul>
+                  </div>
+                  <h3 class="card-title fs-1 my-2">
+                    Mercedez-Benz: La Excelencia en Movimiento
+                  </h3>
+                  <p class="fs-4">
+                    En el mundo automovilístico, pocas marcas han logrado establecer una reputación de excelencia, lujo y prestigio como Mercedez-Benz. Con más de un siglo de historia, esta icónica compañía alemana ha dejado una huella imborrable en la industria automotriz, marcando pautas y liderando innovaciones tecnológicas. </p>
+                  </p>
+                  <p class="fs-4">
+                    Desde sus inicios, Mercedez-Benz ha sido sinónimo de innovación. Ha sido responsable de muchas primicias en la industria, incluida la primera producción de vehículos con carrocería de acero, el sistema de suspensión independiente y el legendario sistema de seguridad conocido como "Mercedes-Benz Pre-Safe."
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Última actualización hace 5 minutos</small>
+                  </p>
+                  <div class="border-top">
+                    <a href="/pages/error404.html" class="btn site-btn-link">VER MAS <i class="fas fa-chevron-right" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center pt-3">
+              <nav aria-label="botones paginacion página principal" class="">
+                <ul class="pagination pagination-lg">
+                  <li class="page-item active">
+                    <a class="page-link" href="/pages/error404.html">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="/pages/error404.html">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="/pages/error404.html">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="/pages/error404.html" aria-label="Next">
+                      <span aria-hidden="true">»</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </article>
+          <aside class="col-sm-12 col-md-4">
+            <div class="col-sm-12 col-md-12 my-3 bg-light p-4">
+              <h3 class="fs-1">Explora mas adentro del blog</h3>
+              <form class="form-inline mb-3 me-3 p-4">
+                <input class="form-control form-control-sm me-5 p-4" type="text" placeholder="Buscar" aria-label="Buscar" maxlength="20">
+                <button class="btn btn-lg btn-outline-dark fw-bold my-2 my-sm-2" type="submit"> Buscar</button>
+              </form>
+            </div>
+
+
+            <div class="bg-light p-4 my-5">
+              <h3 class="fs-1 mt-4">Categorias</h3>
+              <ul class="list-group list-group-flush fs-2 fw-bold" id="categorias">
+                <a href="/pages/paginablog.html" class="
+                    list-group-item list-group-item-action
+                    d-flex
+                    justify-content-between
+                    align-items-center">Camaro 2023<span class="badge bg-danger ">14</span></a>
+                <a href="/pages/error404.html" class="
+                    list-group-item list-group-item-action
+                    d-flex
+                    justify-content-between
+                    align-items-center">Mejor temporada<span class="badge bg-danger ">22</span></a>
+                <a href="/pages/error404.html" class="
+                    list-group-item list-group-item-action
+                    d-flex
+                    justify-content-between
+                    align-items-center">Autos 2023<span class="badge bg-danger ">18</span></a>
+                <a href="/pages/error404.html" class="
+                    list-group-item list-group-item-action
+                    d-flex
+                    justify-content-between
+                    align-items-center">Lo mas nuevo <span class="badge bg-danger">24</span></a>
+                <a href="/pages/error404.html" class="
+                    list-group-item list-group-item-action
+                    d-flex
+                    justify-content-between
+                    align-items-center">Ventas<span class="badge bg-danger">05</span></a>
+                <a href="/pages/error404.html" class="
+                    list-group-item list-group-item-action
+                    d-flex
+                    justify-content-between
+                    align-items-center">Camaro RS<span class="badge bg-danger ">44</span></a>
+                <a href="/pages/error404.html" class="
+                    list-group-item list-group-item-action
+                    d-flex
+                    justify-content-between
+                    align-items-center">Drift<span class="badge bg-danger">06</span></a>
+                <a href="/pages/error404.html" class="
+                    list-group-item list-group-item-action
+                    d-flex
+                    justify-content-between
+                    align-items-center">Mecanica<span class="badge bg-danger ">11</span></a>
+              </ul>
+            </div>
+            <div class="col-sm-12 col-md-12 d-none d-sm-none my-3 d-md-block">
+              <img src="./img/oferta.gif" alt="Autos nuevos 50%off" width="400vh">
+            </div>
+            <div class="bg-light p-2 my-5">
+              <h3 class="fs-1 mt-4">TAGS</h3>
+              <div class="d-flex justify-content-between flex-wrap" role="group" aria-label="Botones tags">
+                <a href="/pages/paginablog.html" type="button" class="btn btn-outline-dark fs-2 fw-bold text-uppercase">Camaro 2023</a>
+                <a href="/pages/error404.html" type="button" class="btn btn-outline-dark fs-2 fw-bold text-uppercase">Autos</a>
+                <a href="/pages/error404.html" type="button" class="btn btn-outline-dark fs-2 fw-bold text-uppercase">Modelos</a>
+                <a href="/pages/error404.html" type="button" class="btn btn-outline-dark fs-2 fw-bold text-uppercase">Promos</a>
+                <a href="/pages/error404.html" type="button" class="btn btn-outline-dark fs-2 fw-bold text-uppercase">Carreras</a>
+                <a href="/pages/error404.html" type="button" class="btn btn-outline-dark fs-2 fw-bold text-uppercase">DRIFT</a>
+                <a href="/pages/error404.html" type="button" class="btn btn-outline-dark fs-2 fw-bold text-uppercase">Ruedas</a>
+                <a href="/pages/error404.html" type="button" class="btn btn-outline-dark fs-2 fw-bold text-uppercase">CAMARO SG</a>
+                <a href="/pages/error404.html" type="button" class="btn btn-outline-dark fs-2 fw-bold text-uppercase">Popular</a>
+              </div>
+            </div>
+
+            <div class="bg-light p-4 my-5">
+              <h3 class="fs-1 mt-4">NOVEDADES</h3>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-12">
+                    <a href="/pages/paginablog.html">
+                      <img src="/img/sten-rademaker-UZUzvJEvKnI-unsplash.jpg" class="img-fluid rounded-start" alt="mecanica de automoción" width="100%">
+                    </a>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <a href="/pages/paginablog.html" class="text-dark">
+                        <h5 class="card-title">
+                          Como nos preparamos para darte lo mejor
+                        </h5>
+                      </a>
+                      <p class="card-text">
+                        <small class="text-muted">19 julio 2023</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-12">
+                    <a href="/pages/error404.html">
+                      <img src="/img/meritt-thomas-i3A72pqXxAI-unsplash.jpg" class="img-fluid rounded-start" alt="camaro ss" width="100%">
+                    </a>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <a href="/pages/error404.html" class="text-dark">
+                        <h5 class="card-title">
+                          Mejores modelos de autos
+                        </h5>
+                      </a>
+                      <p class="card-text">
+                        <small class="text-muted">13 de marzo 2023</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-12">
+                    <a href="/pages/error404.html">
+                      <img src="/img/maxime-renard-4rrMwSIL-i4-unsplash.jpg" class="img-fluid rounded-start" alt="Audi" width="100%">
+                    </a>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <a href="/pages/error404.html" class="text-dark">
+                        <h5 class="card-title">
+                          ¿Te ves corriendo?
+                        </h5>
+                      </a>
+                      <p class="card-text">
+                        <small class="text-muted">30 de enero 2023</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-12">
+                    <a href="/pages/error404.html">
+                      <img src="/img/meritt-thomas-k93GkBA625M-unsplash.jpg" class="img-fluid rounded-start" alt="carrera camaro" width="100%">
+                    </a>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="card-body">
+                      <a href="/pages/error404.html" class="text-dark">
+                        <h5 class="card-title">
+                        Lo mejor en carreras Camaro
+                        </h5>
+                      </a>
+                      <p class="card-text">
+                        <small class="text-muted">19 de julio 2023</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <div class="modal fade" tabindex="-1" id="Modalregistro" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content bg-black">
+        <div class="modal-header">
+          <h3 class="modal-title fs-1 coloresLetras">Registrate</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="fw-bold coloresLetras">
+            <span class="fs-2">Unete al gran movimiento automovilístico</span>
+          </p>
+          <p class="text-light fw-ligh fs-3 lead">
+            <strong class="fs-2 fw-bold coloresLetras">
+             Car-Community </strong>
+            Te ofrece la mejor pagina blog para vista de autos diarios y la mejor informacion de cualquier auto que busques
+          </p>
+          <form>
+            <div class="input-group">
+              <input type="email" class="form-control" id="emailregistro" aria-describedby="email de registro" placeholder="carcommunity@hotmail.com" maxlength="20" required="">
+              <button class="btn btn-outline-info" type="submit" id="button-registro">
+                <i class="far fa-paper-plane" aria-hidden="true"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   
+  <footer class="text-center text-lg-start bg-light text-muted footerfondo">
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 d-flex flex-column align-items-center">
+            <h6 class="text-light fw-bold mb-4">
+              <i class="fas fa-car me-1"></i> Cars-Comunnity
+            </h6>
+            <img src="/img/logozarpa.jpg" width="90"/>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-light fw-bold mb-4">
+              <div class="py-3">
+                <a href="/pages/galeria.html">GaleriadeImagenes</a>
+              </div>
+              Nuestras redes
+            </h6>
+            <div class="d-flex flex-row justify-content-center">
+              <a href="" class="me-4 text-reset text-decoration-none d-flex align-items-center">
+                <i class="fa-brands fa-facebook" style="color: #f7f7f8;"></i>
+              </a>
+              <a href="" class="me-4 text-reset text-decoration-none d-flex align-items-center">
+                <i class="fab fa-twitter" style="color: #f7f7f8;"></i>
+              </a> 
+              <a href="" class="me-4 text-reset text-decoration-none d-flex align-items-center">
+                <i class="fab fa-google" style="color: #f7f7f8;"></i>
+              </a>
+              <a href="" class="me-4 text-reset text-decoration-none d-flex align-items-center">
+                <i class="fab fa-instagram" style="color: #f7f7f8;"></i>
+              </a>
+              <a href="" class="me-4 text-reset text-decoration-none d-flex align-items-center">
+                <i class="fab fa-linkedin" style="color: #f7f7f8;"></i>
+              </a>
+              <a href="" class="me-4 text-reset text-decoration-none d-flex align-items-center">
+                <i class="fab fa-github" style="color: #f7f7f8;"></i>
+              </a>
+            </div>
+          </div>
+          <div class="text-light col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 d-flex flex-column align-items-center">
+            <h6 class="text-light fw-bold mb-4">Contacto</h6>
+            <p text-light>
+                  <i class=" fa-solid fa-envelope"></i
+                  ><strong> Email:</strong> cars@gmail.com
+                </p>
+                <p>
+                  <i class=" fa-solid fa-phone"></i
+                  ><strong> Telefono:</strong> +543816382938
+                </p>
+                <p>
+                  <i class=" fa-solid fa-location-dot"></i
+                  ><strong> Direccion:</strong> Av mitre 231
+                </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright: Car-Comunnity
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/db49dd377d.js" crossorigin="anonymous"></script>
+
+ <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
